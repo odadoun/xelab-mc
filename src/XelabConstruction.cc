@@ -13,10 +13,6 @@ XelabDetectorConstruction::~XelabDetectorConstruction()
 // Definitions from XENON class Xenon1tMaterials
 void XelabDetectorConstruction::DefineMaterials()
 {
-  const test abcd = 58. ;
-  for(int i = 0; i < 5; i ++){
-  G4cout << i << G4endl;}
-
   G4NistManager *pNistManager = G4NistManager::Instance();
 
   const G4int nEntries = 32;
