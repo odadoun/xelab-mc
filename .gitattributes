@@ -1,0 +1,16 @@
+################################################################################
+# File copied from XENONnT/mc/.gitattributes
+################################################################################
+
+# Set the default behavior, in case people don't have core.autocrlf set.
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.c text
+*.h text
+*.mac text eol=lf
+
+Makefile text eol=lf
+pre_make text eol=lf
+post_make text eol=lf

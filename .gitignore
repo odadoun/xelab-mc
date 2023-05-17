@@ -1,0 +1,55 @@
+################################################################################
+# File copied from XENONnT/mc/.gitignore
+################################################################################
+
+# Project files
+xelab_mc.cc
+
+# Directories created during compilation
+bin
+tmp
+build
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# emacs creates a backup copy of the file ending with ~, and unsaved
+# modifications are temporarily saved in a file with # around (and a
+# link to the process starts with .#)
+*~
+\#*#
+.#*
+
+# ROOT tends to spawn .d and .pcm files, in addition to the library
+# files .so that you typically do not want to synchronize
+*.d
+*.so
+*.pcm
+*_ACLiC_*
+*.root
