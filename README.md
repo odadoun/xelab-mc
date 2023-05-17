@@ -2,7 +2,7 @@
 
 GEANT4-based physics simulation of the XeLab experiment at LPNHE (Paris, France).
 
-## Versions
+## Dependencies
 
 - CMake 3.26.3
 - ROOT 6.26/10 (only if you want to open `*.root` files generated during simulation)
