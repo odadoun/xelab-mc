@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabConstruction.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABCONSTRUCTION_HH
 #define XELABCONSTRUCTION_HH
 
@@ -67,11 +73,17 @@ private:
   G4GenericMessenger *fMessenger;
 
   // Elements
-  G4Element *N, *O, *Cr, *Ni, *Mo, *Mn, *C, *Si, *Ti, *Fe;
-  G4Material *Vacuum, *Air, *SS316Ti, *Rubber, *Copper;
+  G4Element *N, *O, *Cr, *Ni, *Mo, *Mn, *C, *Si, *Ti, *Fe, *Xe;
+  G4Material *Vacuum, *Air, *SS316Ti, *Rubber, *Copper, *LXe, *GXe;
 
   // Solid volumes
   G4Box *world_solid;
+
+  G4Tubs *LXeMainPart_solid;
+  G4Tubs *LXePipeSubPart_solid;
+  G4Tubs *LXeColumnSubPart_solid;
+  G4SubtractionSolid *LXe_sub1_solid;
+  G4SubtractionSolid *LXe_solid;
 
   G4Tubs *innCryoTranslation_solid;
   G4Tubs *innCryoEnvelope_solid;
@@ -125,6 +137,8 @@ private:
   // Logical volumes
   G4LogicalVolume *world_logical;
 
+  G4LogicalVolume *LXe_logical;
+
   G4LogicalVolume *innCryoTranslation_logical;
   G4LogicalVolume *innCryoEnvelope_logical;
   G4LogicalVolume *innCryoBotEndCap_logical;
@@ -146,6 +160,8 @@ private:
 
   // Physical volumes
   G4VPhysicalVolume *world_physical;
+
+  G4VPhysicalVolume *LXe_physical;
 
   G4VPhysicalVolume *innCryoTranslation_physical;
   G4VPhysicalVolume *innCryoEnvelope_physical;

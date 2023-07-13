@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabPhysics.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabPhysics.hh"
 
 XelabPhysicsList::XelabPhysicsList()

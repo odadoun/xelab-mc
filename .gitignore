@@ -35,6 +35,9 @@ build
 *.out
 *.app
 
+# VS Code directory
+.vscode
+
 # emacs creates a backup copy of the file ending with ~, and unsaved
 # modifications are temporarily saved in a file with # around (and a
 # link to the process starts with .#)

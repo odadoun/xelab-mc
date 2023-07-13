@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabGenerator.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABGENERATOR_HH
 #define XELABGENERATOR_HH
 

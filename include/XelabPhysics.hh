@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabPhysics.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABPHYSICS_HH
 #define XELABPHYSICS_HH
 

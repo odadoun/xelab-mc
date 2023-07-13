@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabGenerator.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabGenerator.hh"
 
 XelabPrimaryGenerator::XelabPrimaryGenerator()

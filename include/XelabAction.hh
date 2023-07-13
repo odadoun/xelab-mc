@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabAction.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABACTION_HH
 #define XELABACTION_HH
 

@@ -2,9 +2,9 @@
 
 # Display
 /vis/open OGL
+# /vis/open RayTracer
 /vis/viewer/set/viewpointVector 1 -1.5 0.75
 /vis/viewer/set/upVector 0 0 1
-# /vis/open RayTracerX
 /vis/viewer/set/autoRefresh true
 /vis/viewer/set/hiddenEdge true
 
@@ -23,3 +23,6 @@
 
 # Accumulate several events per run
 /vis/scene/endOfEventAction accumulate
+
+# For RayTracer
+# /vis/viewer/refresh

@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabAction.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabAction.hh"
 
 XelabActionInitialization::XelabActionInitialization(){};

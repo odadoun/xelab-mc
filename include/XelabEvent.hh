@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabEvent.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABEVENT_HH
 #define XELABEVENT_HH
 

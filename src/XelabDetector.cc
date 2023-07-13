@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabDetector.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabDetector.hh"
 
 XelabSensitiveDetector::XelabSensitiveDetector(G4String name) : G4VSensitiveDetector(name){};
@@ -37,10 +43,6 @@ G4bool XelabSensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *RO
   // Get the position of the detector where a photon interacted
   G4VPhysicalVolume *physVol = touchable->GetVolume();
   G4ThreeVector posDetector = physVol->GetTranslation();
-
-#ifndef G4MULTITHREADED
-  // G4cout << "Detector position: " << posDetector << G4endl;
-#endif
 
   G4int evt = G4RunManager::GetRunManager()->GetCurrentEvent()->GetEventID();
 

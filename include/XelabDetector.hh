@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabDetector.hh
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #ifndef XELABDETECTOR_HH
 #define XELABDETECTOR_HH
 

@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabEvent.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabEvent.hh"
 
 XelabEventAction::XelabEventAction(XelabRunAction *)

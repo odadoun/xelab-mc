@@ -1,3 +1,9 @@
+// =============================================================================
+//  Title: XelabRun.cc
+//  Author: Erwann Masson
+//  Creation: Spring 2023
+// =============================================================================
+
 #include "XelabRun.hh"
 
 XelabRunAction::XelabRunAction()
