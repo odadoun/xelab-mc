@@ -1,5 +1,5 @@
 # Project files
-xelab_mc.cc
+#xelab_mc.cc
 
 # Directories created during compilation
 bin
